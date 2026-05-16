@@ -1,1 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Zealand Tides – Legal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ocean: #0a2540;
+      --seafoam: #2a9d8f;
+      --sand: #f4ede4;
+      --ink: #1a1a2e;
+      --muted: #5a6a7a;
+      --rule: #d0dde8;
+    }
 
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--sand);
+      color: var(--ink);
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-weight: 300;
+      font-size: 17px;
+      line-height: 1.75;
+    }
+
+    header {
+      background: var(--ocean);
+      color: white;
+      padding: 60px 40px 50px;
+      text-align: center;
+    }
+
+    header .app-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      margin-bottom: 8px;
+    }
+
+    header .tagline {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.55);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    nav {
+      background: white;
+      border-bottom: 1px solid var(--rule);
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      display: block;
+      padding: 16px 36px;
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 0.875rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border-bottom: 3px solid transparent;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    nav a:hover, nav a.active {
+      color: var(--seafoam);
+      border-bottom-color: var(--seafoam);
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 32px 80px;
+    }
+
+    section {
+      padding-top: 64px;
+    }
+
+    .doc-header {
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 40px;
+    }
+
+    .doc-header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 600;
+      color: var(--ocean);
+      margin-bottom: 8px;
+    }
+
+    .doc-header .meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--ocean);
+      margin: 36px 0 12px;
+      padding-left: 14px;
+      border-left: 3px solid var(--seafoam);
+    }
+
+    p {
+      margin-bottom: 16px;
+      color: #2d3748;
+    }
+
+    ul {
+      margin: 0 0 16px 20px;
+      color: #2d3748;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .callout {
+      background: white;
+      border: 1px solid var(--rule);
+      border-left: 4px solid var(--seafoam);
+      border-radius: 4px;
+      padding: 20px 24px;
+      margin: 24px 0;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 64px 0 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px;
+      font-size: 0.8rem;
+      color: var(--muted);
+      border-top: 1px solid var(--rule);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="app-name">🌊 New Zealand Tides</div>
+  <div class="tagline">Legal &amp; Privacy Information</div>
+</header>
+
+<nav>
+  <a href="#privacy" class="active">Privacy Policy</a>
+  <a href="#terms">Terms of Use</a>
+</nav>
+
+<main>
+
+  <!-- ==================== PRIVACY POLICY ==================== -->
+  <section id="privacy">
+    <div class="doc-header">
+      <h1>Privacy Policy</h1>
+      <div class="meta">Effective date: [INSERT DATE] &nbsp;·&nbsp; Last updated: [INSERT DATE]</div>
+    </div>
+
+    <div class="callout">
+      <strong>Short version:</strong> New Zealand Tides does not collect, store, or share any personal information. We don't know who you are, and that's intentional.
+    </div>
+
+    <h2>1. Who We Are</h2>
+    <p>New Zealand Tides ("the App") is an iOS application developed by [YOUR NAME / ENTITY] ("we", "us", or "our"). The App provides tide forecast information for locations around New Zealand.</p>
+
+    <h2>2. Information We Do Not Collect</h2>
+    <p>The App does not require you to create an account or log in. We do not collect, process, transmit, or store any of the following:</p>
+    <ul>
+      <li>Name, email address, or contact details</li>
+      <li>Device identifiers or advertising IDs</li>
+      <li>Location data (the App uses a manual location picker)</li>
+      <li>Usage analytics or crash reports</li>
+      <li>Payment or financial information of any kind</li>
+    </ul>
+
+    <h2>3. In-App Purchases and Subscriptions</h2>
+    <p>The App offers an optional paid subscription to unlock premium features. All purchases and subscription management are handled entirely by Apple through the App Store. We do not process, receive, or store any payment information. Please refer to Apple's Privacy Policy at <a href="https://www.apple.com/legal/privacy/" target="_blank">apple.com/legal/privacy</a> for details on how Apple handles your payment data.</p>
+
+    <h2>4. Data Stored on Your Device</h2>
+    <p>Some preferences — such as your bookmarked locations and app settings — may be saved locally on your device using standard iOS storage mechanisms (e.g., UserDefaults). This data never leaves your device and is not accessible to us.</p>
+
+    <h2>5. Third-Party Services</h2>
+    <p>The App does not integrate any third-party analytics, advertising, tracking, or social media SDKs. No data is shared with any third party.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>Because we do not collect any personal information from any users, the App is safe for use by people of all ages. We do not knowingly collect information from children under 13 (or under 16 in applicable jurisdictions).</p>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>If we ever change our data practices, we will update this Privacy Policy and revise the "Last updated" date above. We encourage you to review this page periodically. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>8. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us at:<br />
+    <strong>[YOUR EMAIL ADDRESS]</strong></p>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- ==================== TERMS OF USE ==================== -->
+  <section id="terms">
+    <div class="doc-header">
+      <h1>Terms of Use</h1>
+      <div class="meta">Effective date: [INSERT DATE] &nbsp;·&nbsp; Last updated: [INSERT DATE]</div>
+    </div>
+
+    <div class="callout">
+      By downloading or using New Zealand Tides, you agree to these terms. Please read them carefully.
+    </div>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>These Terms of Use ("Terms") govern your use of the New Zealand Tides iOS application ("the App"), developed by [YOUR NAME / ENTITY]. By installing or using the App, you agree to be bound by these Terms.</p>
+
+    <h2>2. Nature of the Service</h2>
+    <p>New Zealand Tides provides tide forecast information for locations around New Zealand based on predictive tidal data. The App is intended for general informational and recreational purposes only.</p>
+
+    <h2>3. Disclaimer — Not for Safety-Critical Use</h2>
+    <p>⚠️ <strong>Important:</strong> Tide predictions are mathematical forecasts and may not reflect actual conditions due to weather, storms, atmospheric pressure, local geography, or other factors. <strong>Do not rely solely on this App for navigation, maritime operations, commercial fishing, diving, or any activity where inaccurate tidal information could result in injury, loss of life, or property damage.</strong> Always consult official sources such as Land Information New Zealand (LINZ) and check current weather and sea conditions before any ocean activity.</p>
+
+    <h2>4. Subscription and Payments</h2>
+    <p>The App offers a free tier and an optional paid subscription. Subscriptions are offered through Apple's In-App Purchase system and are subject to Apple's Terms and Conditions. Key points:</p>
+    <ul>
+      <li>Payment is charged to your Apple ID at confirmation of purchase.</li>
+      <li>Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period.</li>
+      <li>You can manage and cancel subscriptions in your Apple ID account settings.</li>
+      <li>No refunds are provided for partial subscription periods, in accordance with Apple's policies.</li>
+    </ul>
+
+    <h2>5. Intellectual Property</h2>
+    <p>All content, code, design, graphics, and data within the App are owned by [YOUR NAME / ENTITY] or licensed to us and are protected by applicable intellectual property laws. You may not reproduce, distribute, modify, or create derivative works from any part of the App without our express written consent.</p>
+
+    <h2>6. Acceptable Use</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Reverse engineer, decompile, or disassemble the App</li>
+      <li>Use the App for any unlawful purpose</li>
+      <li>Attempt to extract or scrape the tide data for commercial use without permission</li>
+    </ul>
+
+    <h2>7. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by applicable law, [YOUR NAME / ENTITY] shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of or reliance on the App, including but not limited to personal injury, property damage, or financial loss.</p>
+    <p>The App is provided "as is" and "as available" without warranties of any kind, either express or implied, including but not limited to accuracy, fitness for a particular purpose, or non-infringement.</p>
+
+    <h2>8. Governing Law</h2>
+    <p>These Terms are governed by and construed in accordance with the laws of New Zealand. Any disputes arising from these Terms or the App shall be subject to the exclusive jurisdiction of the courts of New Zealand.</p>
+
+    <h2>9. Changes to These Terms</h2>
+    <p>We may update these Terms from time to time. The updated version will be indicated by a revised "Last updated" date. Your continued use of the App after any changes constitutes your acceptance of the new Terms.</p>
+
+    <h2>10. Contact</h2>
+    <p>For questions about these Terms, please contact:<br />
+    <strong>[YOUR EMAIL ADDRESS]</strong></p>
+  </section>
+
+</main>
+
+<footer>
+  &copy; [YEAR] [YOUR NAME / ENTITY] &nbsp;·&nbsp; New Zealand Tides &nbsp;·&nbsp; All rights reserved
+</footer>
+
+<script>
+  // Highlight active nav tab on scroll
+  const sections = document.querySelectorAll('section');
+  const navLinks = document.querySelectorAll('nav a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 80) current = s.id;
+    });
+    navLinks.forEach(a => {
+      a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+    });
+  });
+</script>
+
+</body>
+</html>
